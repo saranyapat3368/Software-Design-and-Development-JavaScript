@@ -101,6 +101,7 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 </html>
 ```
 [รูปผลการทดลองที่ 1]
+
 ![s1 1](https://github.com/user-attachments/assets/6f539729-eee8-49a4-bb03-760b270beb9b)
 ![s1 2](https://github.com/user-attachments/assets/1c993c06-9eda-4ea0-bf5a-2748b34aa03f)
 ![s1 3](https://github.com/user-attachments/assets/5e90a003-804c-490c-afb6-d8305c04415e)
