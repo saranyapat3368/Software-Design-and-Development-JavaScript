@@ -423,9 +423,55 @@ for (let i = 1; i <= 5; i++) {
 
 ### บันทึกผลการทดลอง 2.3
 ```html
-[บันทึกโค้ด ที่นี่]
+let number = 23; 
+
+    if (number % 2 === 0) {
+        console.log(number + " เป็นเลขคู่");
+    } else {
+        console.log(number + " เป็นเลขคี่");
+    }
+    
+ 
+    
+    console.log("ตารางสูตรคูณแม่ 2:");
+    for (let i = 1; i <= 12; i++) {
+        console.log("2 x " + i + " = " + (2 * i));
+    }
+    
+    
+    console.log("ตารางสูตรคูณแม่ 3:");
+    let j = 1;
+    while (j <= 12) {
+        console.log("3 x " + j + " = " + (3 * j));
+        j++;
+    }
+
+    
+    console.log("นับถอยหลังจาก 10 ถึง 1:");
+    for (let i = 10; i >= 1; i--) {
+        console.log(i);
+    }
+    
+    let age = 90;  
+    
+    if (age >= 0 && age <= 12) {
+        console.log("วัยเด็ก");
+    } else if (age >= 13 && age <= 19) {
+        console.log("วัยรุ่น");
+    } else if (age >= 20 && age <= 59) {
+        console.log("วัยผู้ใหญ่");
+    } else if (age >= 60) {
+        console.log("วัยผู้สูงอายุ");
+    } else {
+        console.log("อายุไม่ถูกต้อง");
+    }
 ```
 [รูปผลการทดลองที่ 2.3]
+
+![s2 3](https://github.com/user-attachments/assets/ead779af-9313-4d1a-83b0-fb13a9cb4691)
+![s2 33](https://github.com/user-attachments/assets/41c99102-8f7f-41b8-b828-752cf524732b)
+
+
 
 ### 2.4 Functions และ Arrow Functions
 
