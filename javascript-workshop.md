@@ -83,28 +83,56 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
     <title>ทดลอง JavaScript</title>
 </head>
 <body>
+    <!-- Inline JavaScript -->
+    <button onclick="alert('ศรัณยาภัทร ขนันเนือง')">ปุ่มที่ 1</button>
 
-    <button onclick="alert('67030223 Saranyapat')">ปุ่มที่ 1</button>
-
+    <!-- ทดสอบ Internal JavaScript -->
     <button id="btn2">ปุ่มที่ 2</button>
 
+    <!-- ทดสอบ External JavaScript -->
     <button id="btn3" onclick="hello3();">ปุ่มที่ 3</button>
 
+    <!-- Internal JavaScript -->
     <script>
         document.getElementById('btn2').onclick = function() {
-            alert('วันอังคาร ที่25 กุมภาพันธ์ 2567');
+    
+            let today = new Date();
+    
+            alert('วันที่ปัจจุบัน: ' + today.toLocaleDateString('th-TH'));
+    
         };
+    
     </script>
 
+    <input type="text" id="textInput" placeholder="กรุณากรอกข้อความ">
+
+    <button onclick="showText()">ตกลง</button>
+    <p id="outputText"></p>
+    
+    <script>
+        function showText() {
+        
+            let text = document.getElementById('textInput').value;
+        
+            document.getElementById('outputText').innerText = 'ข้อความของคุณ : ' + text;
+        
+        }
+        
+        </script>
+        
     <script src="script.js"></script>
 </body>
 </html>
+
 ```
 [รูปผลการทดลองที่ 1]
 
-![s1 1](https://github.com/user-attachments/assets/6f539729-eee8-49a4-bb03-760b270beb9b)
-![s1 2](https://github.com/user-attachments/assets/1c993c06-9eda-4ea0-bf5a-2748b34aa03f)
-![s1 3](https://github.com/user-attachments/assets/5e90a003-804c-490c-afb6-d8305c04415e)
+![s1 1](https://github.com/user-attachments/assets/4b203fbf-eb66-4780-8f96-32b02e09698f)
+![s1 2](https://github.com/user-attachments/assets/1b69fcbc-af43-400e-9a67-44add38ed995)
+![s1 3](https://github.com/user-attachments/assets/59bf5a39-6524-42dc-8a73-5d67ac8f4ae1)
+![s1 4](https://github.com/user-attachments/assets/01a8f198-d397-449c-a215-6d82378c600c)
+
+
 
 
   
