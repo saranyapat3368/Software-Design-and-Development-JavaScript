@@ -270,9 +270,29 @@ number /= 2;          // เท่ากับ number = number / 2
 
 ### บันทึกผลการทดลอง 2.2
 ```html
-[บันทึกโค้ด ที่นี่]
+let subject1 = 55;  
+    let subject2 = 80; 
+    let subject3 = 75;  
+    
+
+    let averageScore = (subject1 + subject2 + subject3) / 3;
+
+    console.log("คะแนนเฉลี่ยของนักศึกษา: " + averageScore);
+    
+
+    let productName = "หนังสือ";
+    let productPrice = 150; 
+
+    let vatRate = 0.07;  
+    let priceWithVAT = productPrice + (productPrice * vatRate);
+    
+    console.log("ชื่อสินค้า: " + productName);
+    console.log("ราคาสินค้า (ก่อน VAT): " + productPrice + " บาท");
+    console.log("ราคาสินค้าที่รวม VAT 7%: " + priceWithVAT + " บาท");
 ```
 [รูปผลการทดลองที่ 2.2]
+
+![s2 2](https://github.com/user-attachments/assets/7216ff76-2364-4cb1-992e-410b2a2850af)
 
 ### 2.3 การควบคุมการทำงาน
 
