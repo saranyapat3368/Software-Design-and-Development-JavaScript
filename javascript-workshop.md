@@ -635,6 +635,7 @@ function calculateBMI(weight, height) {
 ```
 [รูปผลการทดลองที่ 2.4.1]
 
+![s2 4 2](https://github.com/user-attachments/assets/5d17ff44-e4d1-4bfe-a07f-90b8ac49cb7d)
 
 
 #### 2.4.2 Arrow Function
