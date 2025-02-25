@@ -190,9 +190,35 @@ let person = {
 
 ### บันทึกผลการทดลอง 2.1
 ```html
-[บันทึกโค้ด ที่นี่]
+let studentId = "67030223";      
+let studentName = "ศรัณยาภัทร ขนันเนือง";     
+let midtermScore = 90;        
+let finalScore = 100;           
+
+const studentInfo = {
+    id: studentId,             
+    name: studentName,        
+    major: "ครุศาสตร์อุตสาหกรรม",  
+    gpa: 4.00                  
+};
+
+
+studentName = "ศรัณยาภัทร ขนันเนือง"; 
+
+
+console.log(studentInfo);
+console.log("รหัสนักศึกษา: " + studentInfo.id);
+console.log("ชื่อ: " + studentInfo.name);
+console.log("สาขาวิชา: " + studentInfo.major);
+console.log("เกรดเฉลี่ย: " + studentInfo.gpa);
+
+
+let totalScore = midtermScore + finalScore;
+console.log("คะแนนรวม: " + totalScore);
 ```
 [รูปผลการทดลองที่ 2.1]
+
+![S2 1](https://github.com/user-attachments/assets/d42b2c98-0a80-48de-acb2-e437f41eccf3)
 
 
 ### 2.2 การดำเนินการทางคณิตศาสตร์
