@@ -583,7 +583,55 @@ process(function() {
 
 ### บันทึกผลการทดลอง 2.4.1
 ```html
-[บันทึกโค้ด ที่นี่]
+function calculateBMI(weight, height) {
+        let bmi = weight / (height * height);  
+        
+        console.log("ค่า BMI: " + bmi.toFixed(2));  
+        
+        if (bmi < 18.5) {
+            console.log("น้ำหนักน้อยเกินไป");
+        } else if (bmi >= 18.5 && bmi < 24.9) {
+            console.log("น้ำหนักปกติ");
+        } else if (bmi >= 25 && bmi < 29.9) {
+            console.log("น้ำหนักเกิน");
+        } else {
+            console.log("อ้วน");
+        }
+    }
+    
+    
+    calculateBMI(68, 1.75); 
+    
+    function greetByAge(name, age) {
+        if (age < 13) {
+            console.log("สวัสดี " + name + " คุณยังเด็กมาก!");
+        } else if (age >= 13 && age <= 19) {
+            console.log("สวัสดี " + name + " คุณอยู่ในวัยรุ่น!");
+        } else if (age >= 20 && age <= 59) {
+            console.log("สวัสดี " + name + " คุณเป็นผู้ใหญ่แล้ว!");
+        } else {
+            console.log("สวัสดี " + name + " คุณอยู่ในวัยผู้สูงอายุ!");
+        }
+    }
+    
+    
+    greetByAge("พ่อ", 75);  
+    greetByAge("แม่", 65); 
+    greetByAge("น้องชาย", 59); 
+    
+    
+    function checkPassword(password) {
+        if (password.length > 8) {
+            console.log("รหัสผ่านมีความยาวมากกว่า 8 ตัวอักษร");
+        } else {
+            console.log("รหัสผ่านต้องมีความยาวมากกว่า 8 ตัวอักษร");
+        }
+    }
+    
+    
+    checkPassword("password123");
+    checkPassword("short");
+
 ```
 [รูปผลการทดลองที่ 2.4.1]
 
@@ -629,6 +677,8 @@ console.log("เลขคู่:", evenNumbers); // [2, 4]
 [บันทึกโค้ด ที่นี่]
 ```
 [รูปผลการทดลองที่ 2.4.2]
+
+![s2 4 2](https://github.com/user-attachments/assets/986172e4-e99b-4eca-be5e-f642a15d52c6)
 
 
 ## การทดลองที่ 3 : การใช้ JavaScript กับ HTML และ CSS
